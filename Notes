@@ -1,0 +1,29 @@
+create a folder for project
+Install playwright from the plugins
+Install browsers from command palette
+Intall Cucumber from the plugins
+Run this command in command prompt: npm i @cucumber/cucumber -D
+Run this command in command prompt: npm i ts-node -D
+-------------------------------------------------------
+To run the Scripts: npm run test (or) npm test
+--------------------------------------------------------
+https://www.npmjs.com/package/multiple-cucumber-html-reporter
+install following packages:
+    npm i dotenv -D
+    npm i cross-env -D
+    nom i winstaon -D --> for logging
+    npm i fs-extra -D
+
+---------------------------------------------
+Backup commaands:
+"test": "cross-env ENV=test cucumber-js test || true",
+
+"test": "cross-env ENV=test FORCE_COLOR=0 cucumber-js --config=config/cucumber.js || true",
+
+
+
+
+npm test --TAGS="@smoke" -- to use tags from command line
+
+-------------------------------------------------
+SELENIUM_REMOTE_URL - http://localhost:4444
